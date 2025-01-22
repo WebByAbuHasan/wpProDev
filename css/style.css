@@ -56,7 +56,7 @@ header{
 
 .sell_button{
     background: rgb(229,238,246);
-background: linear-gradient(0deg, rgba(229,238,246,1) 49%, rgba(255,255,255,1) 49%);
+    background: linear-gradient(0deg, rgba(229,238,246,1) 92%, rgba(255,255,255,1) 8%);
 }
 
 /* ffl section  */

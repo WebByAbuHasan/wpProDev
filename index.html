@@ -115,48 +115,74 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-                    <div class="bg-light rounded-pill d-flex flex-column flex-md-row gap-2">
-                        <button class="btn btn-dark rounded-pill">Manufacturers Selling Online</button>
-                        <button class="btn btn-light rounded-pill">“Local” FFL Dealers</button>
+                    <ul class="nav nav-tabs bg-light rounded-pill p-2" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active btn-dark rounded-pill" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Manufacturers Selling Online</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link btn-light rounded-pill" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">“Local” FFL Dealers</button>
+                        </li>                       
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start">
+                                    <button class="btn btn-bg rounded-pill">FFL select</button>
+                                    <h2>Manufacturers Selling Online</h2>
+                                    <h6>Present a Curated List of FFL Dealers during Checkout</h6>
+                                    <p>FFL Select is your solution for connecting customers with trusted FFL dealers directly through your e-commerce platform. Compatible with WooCommerce, Shopify, and other major platforms, our app ensures a secure, hassle-free transaction from browsing to purchase.</p>
+                                    <button class="btn btn-dark rounded-pill">Schedule a Demo</button>
+                                </div>
+                                <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                                    <img src="./img/Frame 1597884517.png" alt="" width="100%">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 d-flex flex-column justify-content-center ">
+                                    <img src="./img/Frame 1597884482.png" alt="" width="100%">
+                                </div>
+                                <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start">
+                                    <button class="btn btn-bg rounded-pill">FFL 360</button>
+                                    <h2>Automated Compliance <br> saves $8 for every <br> firearm sold</h2>
+                                    <p>Through our FFL 360 Software, your compliance team is <br>
+                                       able to communicate with the selected FFL dealer to get <br>
+                                       approval and license before shipping the firearm.</p>                    
+                                    <button class="btn btn-dark rounded-pill">Schedule a Demo</button>
+                                </div>               
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start">
+                                    <button class="btn btn-bg rounded-pill">myFFL</button>
+                                    <h2>Customer Centricity at It’s Core </h2>
+                                    <h6>Transparency. Communication. Security</h6>
+                                    <p>FFL Select is your solution for connecting customers with trusted FFL dealers directly through your e-commerce platform. Compatible with WooCommerce, Shopify, and other major platforms, our app ensures a secure, hassle-free transaction from browsing to purchase.</p>
+                                    <button class="btn btn-dark rounded-pill">Search MYFFL</button>
+                                </div>
+                                <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                                    <img src="./img/Frame15.png" alt="" width="100%">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start">
+                                    <button class="btn btn-bg rounded-pill">FFL section</button>
+                                    <h2>Manufacturers Selling Online</h2>
+                                    <h6>Present a Curated List of FFL Dealers during Checkout</h6>
+                                    <p>FFL Select is your solution for connecting customers with trusted FFL dealers directly through your e-commerce platform. Compatible with WooCommerce, Shopify, and other major platforms, our app ensures a secure, hassle-free transaction from browsing to purchase.</p>                    
+                                    <button class="btn btn-dark rounded-pill">Schedule a Demo</button>
+                                </div>
+                                <div class="col-12 col-md-6 d-flex flex-column justify-content-center ">
+                                    <img src="./img/Frame 1597884517.png" alt="" width="100%">
+                                </div>               
+                            </div>
+                        </div>                       
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- this is ffl section -->
-    <section class="container-fluid py-5 ffl_bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start">
-                    <button class="btn btn-bg rounded-pill">myFFL</button>
-                    <h2>Customer Centricity at It’s Core </h2>
-                    <h6>Transparency. Communication. Security</h6>
-                    <p>FFL Select is your solution for connecting customers with trusted FFL dealers directly through your e-commerce platform. Compatible with WooCommerce, Shopify, and other major platforms, our app ensures a secure, hassle-free transaction from browsing to purchase.</p>
-                    <button class="btn btn-dark rounded-pill">Search MYFFL</button>
-                </div>
-                <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                    <img src="./img/Frame15.png" alt="" width="100%">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- this is ffl 360 section -->
-    <section class="container-fluid pb-5 ffl_bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start">
-                    <button class="btn btn-bg rounded-pill">FFL section</button>
-                    <h2>Manufacturers Selling Online</h2>
-                    <h6>Present a Curated List of FFL Dealers during Checkout</h6>
-                    <p>FFL Select is your solution for connecting customers with trusted FFL dealers directly through your e-commerce platform. Compatible with WooCommerce, Shopify, and other major platforms, our app ensures a secure, hassle-free transaction from browsing to purchase.</p>                    
-                    <button class="btn btn-dark rounded-pill">Schedule a Demo</button>
-                </div>
-                <div class="col-12 col-md-6 d-flex flex-column justify-content-center ">
-                    <img src="./img/Frame 1597884517.png" alt="" width="100%">
-                </div>               
-            </div>
-        </div>
-    </section>
+    
     <!-- footer -->
     <section class="container-fluid py-5">
         <div class="container">
