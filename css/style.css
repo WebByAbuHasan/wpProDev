@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Lato", serif;
+    font-weight: bold;
+}
+p{
+    font-family: "Lato", serif; 
+}
+/* all icon colors here*/
+.bi-check-circle-fill{
+    color: #536F81;
+}
+
+.bi-facebook,.bi-twitter-x ,.bi-instagram,.bi-arrow-up-circle-fill{
+    color: #1D2A4A;
+    font-size: 30px;
+}
+/* this is heros and nav section */
+header{
+    background-color: rgba(194, 198, 212, 0.05); 
+    color: rgba(161, 60, 111, 0.05);
+    border-radius: 35px;
+    border: 2px solid #ffffff28;
+}
+.heros_bg{
+    background-image: url(../img/Frame\ 1597884457.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+.btn-heros{
+    background-color: #C9CDD6;
+    border-color: #080238;
+}
+.btn-bg{ 
+    background-color: transparent !important; 
+    border-color: #000000 !important;
+}
+
+/* this is Software section */
+.padding_top{
+    padding-top: 250px;
+}
+.Software_bg{
+    background-image: url(../img/Logo\ &\ Pattern\ Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+}
+
+/* selling button  */
+
+.sell_button{
+    background: rgb(229,238,246);
+background: linear-gradient(0deg, rgba(229,238,246,1) 49%, rgba(255,255,255,1) 49%);
+}
+
+/* ffl section  */
+
+.ffl_bg{
+    background-color: #e5eef6;
+}
+
+/* footer */
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* this is Software section */
+    .padding_top{
+        padding-top: 50px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* this is Software section */
+    .padding_top{
+        padding-top: 250px;
+    }
+}
+
